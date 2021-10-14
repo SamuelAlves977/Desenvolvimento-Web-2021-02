@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container-fluid{
+  background-color: rgb(255, 255, 255);
+  margin-top: 8%;
+  width: 41%;
+  margin-left: 28%;
+  padding: 0% 0% 0% 0%;
+
+  
+}
+#corpofild{
+  background-color: rgb(233, 233, 233);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#teste{
+  margin-top: 8%;
+  margin-left: 8%;
+}
+
+#escolhatxt{
+  text-align: right;
+}
+
+#resultado{
+  margin-left: 8%;
+}
+
+#campoOperacao{
+  margin-right: 20%;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,34,190,1) 35%, rgba(0,212,255,1) 100%);
+}
